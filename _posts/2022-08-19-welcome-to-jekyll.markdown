@@ -1,11 +1,12 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2022-08-19 16:03:32 +0200
+layout: posts
+title: Welcome to Jekyll!
+date: 2022-08-19 16:03:32 +0200
 categories: jekyll update
 comments: true
+lastmod: 2022-08-21T01:14:00.174Z
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+ستجد هذه المشاركة في دليل `_posts`. انطلق وقم بتحريره وأعد إنشاء الموقع لمشاهدة التغييرات التي أجريتها. يمكنك إعادة بناء الموقع بعدة طرق مختلفة ، ولكن الطريقة الأكثر شيوعًا هي تشغيل خدمة `jekyll serve` ، والتي تقوم بتشغيل خادم ويب وتجديد موقعك تلقائيًا عند تحديث الملف.
 
 Jekyll requires blog post files to be named according to the following format:
 
