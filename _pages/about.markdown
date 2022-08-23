@@ -1,6 +1,5 @@
 ---
-layout: archive
-title: About
+title: من نحن
 permalink: /about/
 lastmod: 2022-08-20T22:32:16.984Z
 ---

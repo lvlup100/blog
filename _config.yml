@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ar"
@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shady Abdelhamid"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "شادي عبدالحميد"
+  avatar           : "https://avatars.githubusercontent.com/u/8029319?v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "مطور برمجيات"
   location         : "مصر"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -129,8 +129,12 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label : "Linkedin"
-      icon: "fab fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/shady-abdelhamid/"
+    - label : "Channel"
+      icon: "fab fa-fw fa-brands fa-youtube"
+      url: "https://www.youtube.com/channel/UC9O2yZxaP6xfBVRFEJXu07Q"
+      
 
 # Site Footer
 footer:
@@ -156,6 +160,9 @@ footer:
     - label : "Linkedin"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/shady-abdelhamid/"
+    - label : "Channel"
+      icon: "fab fa-fw fa-brands fa-youtube"
+      url: "https://www.youtube.com/channel/UC9O2yZxaP6xfBVRFEJXu07Q"
 
 
 # Reading Files
@@ -226,7 +233,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Africa/Cairo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -293,6 +300,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+ # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      
