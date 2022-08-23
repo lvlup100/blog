@@ -1,9 +1,9 @@
 main:
-  - title: "Home"
+  - title: "الرئسية"
     url: /
 
-  - title: "About"
+  - title: "من نحن"
     url: /about/
 
-  - title: "Donate"
+  - title: "تبرع"
     url: /donate/
